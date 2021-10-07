@@ -1,117 +1,148 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="asset/js-tambahan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2F33n5dQ81WUE00s/" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link href="assets/js-tambahan/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/js-tambahan/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/js-tambahan/aos/aos.css" rel="stylesheet">
-    <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
-
+    <link href="asset/js-tambahan/venobox/venobox.css" rel="stylesheet">
+    <link href="asset/js-tambahan/aos/aos.css" rel="stylesheet">
+   
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Dishub</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <navbar>
         <nav class="navbar navbar-custom  fixed-top navbar-expand-lg">
             <div class="container">
-                <img src="asset/dishub.png" width="20%" height="20%">
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="asset/dishub.png" width="8%" height="20%">
+                <h5 class="h5">Dinas Perhubungan</h4>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kelembagaan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Informasi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Galeri</a>
-                        </li>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="profil.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Profil
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="profil.html#tugas-fungsi">Tugas dan Fungsi</a>
+                                    <a class="dropdown-item" href="profil.html#visi-misi">Visi dan Misi</a>
     
-                    </ul>
-                </div>
+                                    <a class="dropdown-item" href="profil.html#tujuan-saran">Tujuan dan Sasaran</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="kelembagaan.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Kelembagaan
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="kelembagaan.html#sekretariat">Sekretariat</a>
+                                    <a class="dropdown-item" href="kelembagaan.html#pkp">Bidang Pengembangan Keselamatan dan Penindakan</a>
+                                    <a class="dropdown-item" href="kelembagaan.html#sarana">Bidang Sarana dan Prasarana</a>
+    
+                                    <a class="dropdown-item" href="kelembagaan.html#transpor">Bidang Moda Transportasi</a>
+                                    <a class="dropdown-item" href="kelembagaan.html#lalin">Bidang Lalu Lintas</a>
+    
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="informasi.html">Informasi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Galeri</a>
+                            </li>
+    
+                        </ul>
+                    </div>
             </div>
         </nav>
     </navbar>
-     
     <header>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="asset/jumbotron.png" alt="First slide">
-              </div>
-    
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="asset/jumbotron.png" alt="First slide">
+                </div>
+
             </div>
-          </div>
+        </div>
     </header>
 
-    <section>
-        <div class="card mx-auto mt-5 mb-5 d-block" style="width: 18rem;">
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/rJ0ECZz8re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
-          </div>
+    <section id="video" class="my-5">
+        <div class="text-center">
+
+            <iframe width="900" height="500" src="https://www.youtube.com/embed/vFERgVcBH2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
     </section>
 
-    <section>
-    <div class="card mx-auto">
-        <row>
-            <div class="card col-4 mb-5">
+    <section id="berita">
+       
+
+        <h2 class="text-center h2 p-5 text-light animate__animated animate__fadeInUpBig" >Berita Terkini</h2>
+        <div class="row  justify-content-center my-4">
+            <div class="card col-md-3 mb-5">
+                <img src="asset/index-img/atm.jpg" class="card-img-top mt-3" alt="...">
                 <div class="card-body">
-                    <a href="" class="card-text">Pengenalan Teori Bahasa dan Automata</a>
+                    <h5 class="text-center h5">Belum Patuh</h5>
+                    <p class="card-text text-left"> Polisi melakukan sweeping di Jl. Hertasning Selasa, 21 September untuk memeriksa kelengkapan surat-surat kendaraan dan pengendara. Banyak pengendara belum patuh </p>
                     <small class=" card-text text-muted">Created on 22 December 2020</small>
                 </div>
             </div>
-            <div class="card col-4 mb-5">
+            <div class="card col-md-3 mx-1 mb-5">
                 <div class="card-body">
-                    <a href="" class="card-text">Pengenalan Teori Bahasa dan Automata</a>
+                    <h5 class="text-center h5">Perlu Solusi</h5>
+                    <p class="card-text"> Sejumlah ruas jalan utama di Kota Makassar masih disesaki dengan keberadaan truk yang beroperasi tanpa pengaturan jam operasional. Hal ini dinilai memicu penumpukan kendaraan seperti terlihat pada Rabu, 1 September</p>
                     <small class=" card-text text-muted">Created on 22 December 2020</small>
                 </div>
             </div>
-            <div class="card col-4 mb-5">
+            <div class="card col-md-3 mx-1 mb-5">
                 <div class="card-body">
-                    <a href="" class="card-text">Pengenalan Teori Bahasa dan Automata</a>
+                    <h5 class="text-center h5">Parkir</h5>
+                    <p class="card-text"> Pemerintah Kota Makassar melalui Perusda Parkir Makassar Raya harus tegas dalam menata perparkiran. Sebab, masih ditemukan lahan parkir mengambil sebagian badan jalan sehingga memacetkan ruas jalan tersebut. Tampak tukang parkir mengambil
+                        badan jalan untuk memarkirkan kendaraan milik masyarakat di Boulevard</p>
                     <small class=" card-text text-muted">Created on 22 December 2020</small>
                 </div>
             </div>
-        </row>
-        
-    </div>
+        </div>
+
+    </section>
+    <section id="aplikasi-terkait">
+        <h2 class="p-5">Aplikasi Terkait</h2>
     </section>
 
-    <div class="footer-copyright text-center py-3">
-        <a>&copy; Copyright
-            <a href="#">unhas.com</a>
-        </a>
-        <br>Designed By Group 1</br>
-    </div> 
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</body>
+<div class="footer-copyright text-center py-3">
+    <a>&copy; Copyright
+        <a href="#">unhas.com</a>
+    </a>
+    <br>Designed By Group 1</br>
+</div>
+
+</html>
+
 </html>
