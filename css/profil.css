@@ -109,9 +109,12 @@
         font-size: 1.2rem;
         line-height: 2.5rem;
     }
+
+    #fungsi1{
+        border-radius: 50%;
+    }
     
     #profil {
-        height: 500px;
         min-height: max-content;
     }
     

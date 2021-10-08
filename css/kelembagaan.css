@@ -45,12 +45,15 @@ h1 {
 }
 
 h4 {
-    text-align: center;
+    text-align: center;font-family: 'Raleway', sans-serif;
 }
 
 h2 {
     margin-top: 30px;
-    text-align: center;
+    text-align: center;font-family: 'Raleway', sans-serif;
+}
+p{
+    text-align: center;font-family: 'Raleway', sans-serif;
 }
 
 hr {
@@ -108,6 +111,7 @@ p {
 .card-text {
     font-size: 1.2rem;
     line-height: 2.5rem;
+    
 }
 
 #profil {
@@ -126,14 +130,41 @@ p {
 
 body{
     font-family: 'Raleway', sans-serif;
+    
 }
 
+.card-text{
+    font-family: 'Raleway', sans-serif;
+ 
+}
 h5{
    padding: 2% 2% 2% 2%;
 }
 
 
 .card:hover{ 
-    background-color:rgb(36, 35, 88);
+    background-color:rgb(61, 61, 90);
     color: white;
+    
+}
+ 
+#col-sar, #col-sek, #col-pkp{
+    background-color: rgb(70, 87, 133);
+
+}
+
+#text1:hover{
+    color:white;
+}
+
+#col-trans, #col-lalin{
+    background-color:rgb(210, 213, 219) ;
+}
+#col-sar, #col-sek, #col-pkp, #col-lalin, #col-bid, #col-trans{
+    height: 20rem;
+    width: 2rem;
+}
+
+.text-card{
+    font-size: 15px;
 }
