@@ -38,10 +38,13 @@
         height: 80px;
     }
     
+    h1,h2,h3,h4,h5{
+        font-family: 'Nunito', sans-serif;
+    }
     h1 {
         margin-top: 100px;
         text-align: center;
-        font-family: 'Raleway', sans-serif;
+       
     }
     
     h4 {
@@ -103,6 +106,7 @@
     p {
         font-size: 1.2rem;
         line-height: 2.5rem;
+        font-family: 'Poppins', sans-serif;
     }
     
     .card-text {
@@ -111,7 +115,7 @@
     }
 
     #fungsi1{
-        border-radius: 50%;
+        
     }
     
     #profil {
@@ -127,16 +131,12 @@
         line-height: 2.5rem;
     }
 
-    body{
-        font-family: 'Raleway', sans-serif;
-    }
-
     .card-body{
         transition: all ease-in-out 0.3s;
     }
 
     .card:hover{ 
-        background-color:rgb(36, 35, 88);
+        color:rgb(36, 35, 88);
         transition-delay: 0.2s;
     
     }
