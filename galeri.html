@@ -35,6 +35,76 @@
 
 <body>
 
+    <nav class="navbar navbar-custom  fixed-top navbar-expand-lg">
+        <div class="container">
+            <img src="asset/dishub.png" width="8%" height="20%">
+            <h5 class="h5">Dinas Perhubungan</h4>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="profil.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Profil
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="profil.html#tugas-fungsi">Tugas dan Fungsi</a>
+                                <a class="dropdown-item" href="profil.html#visi-misi">Visi dan Misi</a>
+
+                                <a class="dropdown-item" href="profil.html#tujuan-saran">Tujuan dan Sasaran</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="kelembagaan.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Kelembagaan
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="kelembagaan.html#sekretariat">Sekretariat</a>
+                                <a class="dropdown-item" href="kelembagaan.html#pkp">Bidang Pengembangan Keselamatan dan Penindakan</a>
+                                <a class="dropdown-item" href="kelembagaan.html#sarana">Bidang Sarana dan Prasarana</a>
+
+                                <a class="dropdown-item" href="kelembagaan.html#transpor">Bidang Moda Transportasi</a>
+                                <a class="dropdown-item" href="kelembagaan.html#lalin">Bidang Lalu Lintas</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="informasi.html">Informasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeri</a>
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <h5>Galeri</h5>
+    <div class="row  justify-content-center my-4">
+    <?php
+            $inew = 0;
+            foreach ($rows as $row) {
+            $inew+=1;
+        ?>
+       
+        
+        <div class="card col-md-3 my-2 mx-1">
+            <img src="../asset/galeri/<?=$row['namaFoto'];?>" class="card-img-top my-3" alt="...">
+            <p> <?=$row['namaFoto'];?></p>
+            
+        </div>
+   
+    <?php
+            }
+    ?>
+    
+     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://kit.fontawesome.com/d8d292993e.js" crossorigin="anonymous"></script>

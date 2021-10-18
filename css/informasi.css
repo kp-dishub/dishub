@@ -2,7 +2,9 @@
     background-color: rgb(36, 35, 88);
     color: white;
 }
-
+body{
+    padding-top: 12%;
+}
 .nav-item {
     margin: 0 20px;
 }
