@@ -55,6 +55,9 @@ h2 {
 p{
     text-align: center;font-family: 'Raleway', sans-serif;
 }
+li{
+    font-family: 'Poppins', sans-serif;
+}
 
 hr {
     border-color: rgb(36, 35, 88);
@@ -139,7 +142,10 @@ h5{
    padding: 2% 2% 2% 2%;
 }
 
-
+#col-bid:hover{
+    color: white;
+    
+}
 .card:hover{ 
     background-color:rgb(61, 61, 90);
     color: white;
