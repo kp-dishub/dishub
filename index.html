@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/informasi.css">
+    <link rel="stylesheet" type="text/css" href="css/profil.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2F33n5dQ81WUE00s/" crossorigin="anonymous">
@@ -30,59 +30,64 @@
             overflow-x: hidden;
         }
         </style>
-    <title>Beranda</title>
+    <title>Profil</title>
 </head>
+
+<navbar>
+    <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
+        <div class="container">
+            <img src="asset/dishub.png" width="8%" height="20%">
+     
+            <h5 class="h5">Dinas Perhubungan</h4>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="profil.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Profil
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="profil.html#fungsi">Tugas dan Fungsi</a>
+                                <a class="dropdown-item" href="profil.html#visi-misi">Visi dan Misi</a>
+                                <a class="dropdown-item" href="profil.html#tujuan-sasaran">Tujuan dan Sasaran</a>
+                                <a class="dropdown-item" href="profil.html#struktur-organisasi">Struktur Organisasi</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="kelembagaan.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Kelembagaan
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="kelembagaan.html#sekretariat">Sekretariat</a>
+                                <a class="dropdown-item" href="kelembagaan.html#pkp">Bidang Pengembangan Keselamatan dan Penindakan</a>
+                                <a class="dropdown-item" href="kelembagaan.html#sarana">Bidang Sarana dan Prasarana</a>
+
+                                <a class="dropdown-item" href="kelembagaan.html#transpor">Bidang Moda Transportasi</a>
+                                <a class="dropdown-item" href="kelembagaan.html#lalin">Bidang Lalu Lintas</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="informasi.html">Informasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeri</a>
+                        </li>
+
+                    </ul>
+                </div>
+        </div>
+    </nav>
+</navbar>
 <body>
  
-        <nav class="navbar navbar-custom  fixed-top navbar-expand-lg">
-            <div class="container">
-                <img src="asset/dishub.png" width="8%" height="20%">
-                <h5 class="h5">Dinas Perhubungan</h4>
-    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="profil.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Profil
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="profil.html#tugas-fungsi">Tugas dan Fungsi</a>
-                                    <a class="dropdown-item" href="profil.html#visi-misi">Visi dan Misi</a>
-    
-                                    <a class="dropdown-item" href="profil.html#tujuan-saran">Tujuan dan Sasaran</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="kelembagaan.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Kelembagaan
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="kelembagaan.html#sekretariat">Sekretariat</a>
-                                    <a class="dropdown-item" href="kelembagaan.html#pkp">Bidang Pengembangan Keselamatan dan Penindakan</a>
-                                    <a class="dropdown-item" href="kelembagaan.html#sarana">Bidang Sarana dan Prasarana</a>
-    
-                                    <a class="dropdown-item" href="kelembagaan.html#transpor">Bidang Moda Transportasi</a>
-                                    <a class="dropdown-item" href="kelembagaan.html#lalin">Bidang Lalu Lintas</a>
-    
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="informasi.html">Informasi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Galeri</a>
-                            </li>
-    
-                        </ul>
-                    </div>
-            </div>
-        </nav>
+       
 
     <header>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -106,53 +111,62 @@
     <section id="berita">
        
 
-        <h2 class="text-center h2 p-5 text-light animate__animated animate__fadeInUpBig" >Berita Terkini</h2>
-        <div class="row  justify-content-center my-4">
-            <div class="card col-md-3 mb-5">
-                <img src="asset/index-img/atm.jpg" class="card-img-top mt-3" alt="...">
+        <h2 class="text-center h2 pt-3 text-light animate__animated animate__fadeInUpBig" >Berita Terkini</h2>
+        <div class="row  justify-content-center mt-3 mb-5">
+            <div class="card col-md-3 mx-1 mb-5">
+                <img src="asset/Belum Patuh.jpeg" class="card-img-top mt-3" alt="...">
                 <div class="card-body">
                     <h5 class="text-center h5">Belum Patuh</h5>
-                    <p class="card-text text-left"> Polisi melakukan sweeping di Jl. Hertasning Selasa, 21 September untuk memeriksa kelengkapan surat-surat kendaraan dan pengendara. Banyak pengendara belum patuh </p>
-                    <small class=" card-text text-muted">Created on 22 December 2020</small>
+                    <p class="card-text"> Polisi melakukan sweeping di Jl. Hertasning Selasa, 21 September untuk memeriksa kelengkapan surat-surat kendaraan dan pengendara. Banyak pengendara belum patuh </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-1 mb-5">
-                <div class="card-body">
-                    <h5 class="text-center h5">Perlu Solusi</h5>
-                    <p class="card-text"> Sejumlah ruas jalan utama di Kota Makassar masih disesaki dengan keberadaan truk yang beroperasi tanpa pengaturan jam operasional. Hal ini dinilai memicu penumpukan kendaraan seperti terlihat pada Rabu, 1 September</p>
-                    <small class=" card-text text-muted">Created on 22 December 2020</small>
-                </div>
-            </div>
-            <div class="card col-md-3 mx-1 mb-5">
+            <div class="card col-md-4 mx-1 mb-5">
+                <img src="asset/Parkir.jpeg" class="card-img-top mt-3" alt="...">
                 <div class="card-body">
                     <h5 class="text-center h5">Parkir</h5>
                     <p class="card-text"> Pemerintah Kota Makassar melalui Perusda Parkir Makassar Raya harus tegas dalam menata perparkiran. Sebab, masih ditemukan lahan parkir mengambil sebagian badan jalan sehingga memacetkan ruas jalan tersebut. Tampak tukang parkir mengambil
                         badan jalan untuk memarkirkan kendaraan milik masyarakat di Boulevard</p>
-                    <small class=" card-text text-muted">Created on 22 December 2020</small>
+                    
+                </div>
+            </div>
+            <div class="card col-md-3 mx-1 mb-5">
+                <img src="asset/Perlu Solusi.jpeg" class="card-img-top mt-3" alt="...">
+                <div class="card-body">
+                    <h5 class="text-center h5">Perlu Solusi</h5>
+                    <p class="card-text"> Sejumlah ruas jalan utama di Kota Makassar masih disesaki dengan keberadaan truk yang beroperasi tanpa pengaturan jam operasional. Hal ini dinilai memicu penumpukan kendaraan seperti terlihat pada Rabu, 1 September</p>                   
                 </div>
             </div>
         </div>
 
     </section>
-    <section id="aplikasi-terkait">
         <h2 class="p-5">Aplikasi Terkait</h2>
-    </section>
 
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div class="row justify-content-center">
+        <div class= col-4 > 
+            <img src="asset/logo sulsel.png" >
+        </div>
+        <div class= col-4 > 
+            <img src="asset/logolapor.png" >
+        </div>
+        <div class= col-4 > 
+            <img src="asset/logo makassar.png" >
+        </div>
+    </div>
 </body>
-<div class="footer-copyright text-center py-3">
+ 
+<div class="footer-copyright text-center py-3 fix-bottom">
     <a>&copy; Copyright
-        <a href="#">unhas.com</a>
+            <a href="#">unhas.com</a>
     </a>
-    <br>Designed By Group 1</br>
+    <br>Designed By Teknik Informatika Unhas 2018</br>
 </div>
 
-</html>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
 </html>
+

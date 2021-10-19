@@ -108,7 +108,9 @@
         line-height: 2.5rem;
         font-family: 'Poppins', sans-serif;
     }
-    
+    li{
+        font-family: 'Poppins', sans-serif;
+    }
     .card-text {
         font-size: 1.2rem;
         line-height: 2.5rem;

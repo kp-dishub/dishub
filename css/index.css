@@ -39,6 +39,7 @@
     }
     
     #berita {
+        height: 180%;
         background-color: rgb(36, 35, 88);
     }
     
@@ -89,9 +90,7 @@
         height: 50%;
     }
     
-    section {
-        height: 600px;
-    }
+
     
     .footer-copyright {
         background-color: rgb(36, 35, 88);
@@ -115,4 +114,8 @@
         display: block;
         align-items: center;
         justify-content: center;
+    }
+
+    #logo1{
+        height : 5px;
     }
