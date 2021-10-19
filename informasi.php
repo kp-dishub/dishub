@@ -86,14 +86,14 @@
 
     <section>
       
-        <h2 class="h2">Letak?</h2>
+        <h2 class="h2">Letak Dinas Perhubungan Kota Makassar</h2>
         <div class="text-center about-map ml-5 mt-3">
             <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.472055827381!2d119.43792831441493!3d-5.188223996235259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee268119c6163%3A0x2475f59457d8c303!2sDinas%20Perhubungan%20Kota%20Makassar!5e0!3m2!1sid!2sid!4v1632367171140!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mt-5"></iframe>
         </div>
     </section>
 
     <section>
-        <div class="row mt-5">
+        <div class="row mt-5 border-top border-bottom p-5">
             <div class="col-4">
                 <i class="far fa-map-marker-alt fa-2x"></i>
                 <h5>Lokasi</h5>
@@ -108,13 +108,46 @@
                 <i class="fas fa-envelope fa-2x"></i>
                 <h5>Email</h5>
                 <p>dishub@..</p>
-            </div>
-           
+            </div>          
         </div>
+  
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center h-100">
+                <div class="card border-0">
+                    <div class="border-0">
+                        <h3>Tuliskan feedback, pertanyaan, kritik maupun saran Anda !</h3>
+                    </div>
+                    <div class="card-body">
+            <form action="informasi.php" method="post">
+                <?php
+                require_once "database/pdo.php";
+                if (isset($_POST['submit'])) //mengecek jika button submit ditekan
+				{
+                $sql = "INSERT INTO feedback (nama,pesan) 
+                       VALUES (:nama, :pesan)";
+					$stmt = $pdo->prepare($sql);
+										/*Eksekusi Query */
+                    $stmt->execute(array(
+                      ':nama' => $_POST['nama'],
+                      ':pesan' => $_POST['pesan']
+                    ));}
+                    ?>
+                <div class="input-group form-group">
+                    <input type="text" name="nama" class="form-control" placeholder="Nama">
+                </div>
+                <div class="input-group form-group">
+                    <input type="text" name="pesan" class="form-control" placeholder="Pesan">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="SUBMIT" name="submit" class="btn float-right login_btn">
+                </div>
+            </form>
+        </div>
+        
 
     </section>
-    
-        <div class="footer-copyright text-center py-3">
+ 
+    <div class="footer-copyright text-center py-3">
             <a>&copy; Copyright
                 <a href="#">unhas.com</a>
             </a>

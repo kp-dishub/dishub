@@ -22,7 +22,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/informasi.css">
+    <link rel="stylesheet" type="text/css" href="css/galeri.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2F33n5dQ81WUE00s/" crossorigin="anonymous">
@@ -98,9 +98,9 @@
                 </div>
         </div>
     </nav>
-    <h5 class="padding-70"></h5>
-    <h5 class="mt-5 h5">Galeri</h5>
-    <div class="row  justify-content-center mt-5 my-4">
+    <body class="mt-5">
+    <h5 class="h3 text-center" style="padding-top:10%">Galeri</h5>
+    <div class="row  justify-content-center my-4">
     <?php
             $inew = 0;
             foreach ($rows as $row) {
@@ -109,8 +109,7 @@
        
         
         <div class="card col-md-3 my-2 mx-1">
-            <img src="asset/galeri/<?=$row['namaFoto'];?>" class="card-img-top my-3" alt="...">
-            <p> <?=$row['namaFoto'];?></p>
+            <img src="asset/galeri/<?=$row['namaFoto'];?>" class="my-3" alt="...">
             
         </div>
    
@@ -119,6 +118,7 @@
     ?>
     
      </div>
+     </body>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
