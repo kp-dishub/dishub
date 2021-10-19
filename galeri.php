@@ -88,10 +88,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="informasi.html">Informasi</a>
+                            <a class="nav-link" href="informasi.php">Informasi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Galeri</a>
+                            <a class="nav-link" href="galeri.php">Galeri</a>
                         </li>
 
                     </ul>
@@ -119,6 +119,10 @@
     
      </div>
      </body>
+        <div class="footer-copyright text-center py-3 fix-bottom">
+        <a>&copy; Copyright
+            Teknik Informatika Unhas 2018</a>
+        </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

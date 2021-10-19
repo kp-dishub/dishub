@@ -72,10 +72,10 @@
                               </div>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link active" href="informasi.html">Informasi</a>
+                              <a class="nav-link active" href="informasi.php">Informasi</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="galeri.html">Galeri</a>
+                              <a class="nav-link" href="galeri.php">Galeri</a>
                           </li>
                       </ul>
                   </div>
@@ -95,7 +95,7 @@
     <section>
         <div class="row mt-5 border-top border-bottom p-5">
             <div class="col-4">
-                <i class="far fa-map-marker-alt fa-2x"></i>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
                 <h5>Lokasi</h5>
                 <p>Jln. Mallengkeri No. 18, Makassar</p>
             </div>
@@ -147,12 +147,10 @@
 
     </section>
  
-    <div class="footer-copyright text-center py-3">
-            <a>&copy; Copyright
-                <a href="#">unhas.com</a>
-            </a>
-            <br>Designed By Group 1</br>
-        </div> 
+    <div class="footer-copyright text-center py-3 fix-bottom">
+    <a>&copy; Copyright
+        Teknik Informatika Unhas 2018</a>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://kit.fontawesome.com/d8d292993e.js" crossorigin="anonymous"></script>
